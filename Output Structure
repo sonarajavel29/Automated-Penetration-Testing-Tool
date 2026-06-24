@@ -1,7 +1,0 @@
-target/
-├── subdomains/
-├── crawler/
-├── takeover/
-├── wayback/
-├── dirsearch/
-└── nuclei/
