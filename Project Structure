@@ -1,0 +1,11 @@
+Automated-Penetration-Testing-Tool/
+│
+├── final.sh
+├── README.md
+├── screenshots/
+│   ├── output1.png
+│   └── output2.png
+├── docs/
+│   ├── Project_Report.pdf
+│   └── PPT.pdf
+└── LICENSE
