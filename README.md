@@ -1,8 +1,7 @@
-# Automated-Penetration-Testing-Tool
-Automated penetration testing framework developed using Shell Scripting that integrates reconnaissance, subdomain enumeration, crawling, directory discovery, and vulnerability scanning using industry-standard open-source security tools.
+# Automated Penetration Testing Tool Using Shell Scripting
 
 ## Overview
-This project automates reconnaissance and vulnerability assessment using Shell Scripting and open-source security tools.
+This project automates web reconnaissance and vulnerability assessment using Shell Scripting and open-source security tools. It integrates multiple security tools into a single workflow to reduce manual effort and improve efficiency.
 
 ## Features
 - Subdomain Enumeration
@@ -14,17 +13,58 @@ This project automates reconnaissance and vulnerability assessment using Shell S
 - Vulnerability Scanning
 
 ## Tools Used
-- subfinder
-- assetfinder
-- httpx
-- subzy
-- katana
-- waybackurls
-- dirsearch
-- nuclei
+- Subfinder
+- Assetfinder
+- Httpx
+- Subzy
+- Katana
+- Waybackurls
+- Dirsearch
+- Nuclei
 
-## Usage
+## Workflow
 
-```bash
-chmod +x final.sh
-./final.sh example.com
+Target Domain
+↓
+Subdomain Enumeration
+↓
+Live Host Detection
+↓
+URL Crawling
+↓
+Directory Discovery
+↓
+Vulnerability Scanning
+↓
+Report Generation
+
+## Project Structure
+
+Automated-Penetration-Testing-Tool/
+├── final.sh
+├── README.md
+├── screenshots/
+└── docs/
+
+## Output Structure
+
+target/
+├── subdomains/
+├── crawler/
+├── takeover/
+├── wayback/
+├── dirsearch/
+└── nuclei/
+
+## Future Scope
+- AI-based vulnerability prioritization
+- Web-based GUI dashboard
+- Cloud deployment support
+- Automated report generation
+- Real-time monitoring
+
+## Disclaimer
+This project is intended for educational purposes and authorized security testing only.
+
+## Author
+Sonali R
